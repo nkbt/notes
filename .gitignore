@@ -19,5 +19,6 @@ npm-debug.log
 !.placeholder
 build
 tmp
+bower
 src/js/entity
 src/**/bower
