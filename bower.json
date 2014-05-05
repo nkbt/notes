@@ -1,5 +1,19 @@
 {
-	"name": "around",
+	"name": "yado",
+	"version": "0.0.1",
+	"description": "yado",
+	"author": {
+		"name": "Nik Butenko",
+		"email": "nik@butenko.me"
+	},
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"src/bower",
+		"build",
+		"test"
+	],
 	"dependencies": {
 		"async": "~0.8.0",
 		"jquery": "~2.1.0",
@@ -7,7 +21,12 @@
 		"requirejs": "~2.1.11",
 		"require-css": "~0.1.2",
 		"requirejs-text": "~2.0.12",
-		"core": "git@github.com:nkbt/js-core.git",
-		"messenger": "git@github.com:nkbt/messenger.git"
+		"history": "~1.8.0",
+		"core": "nkbt/js-core",
+		"messenger": "nkbt/messenger",
+		"storage": "nkbt/storage",
+		"map": "nkbt/map"
+	},
+	"devDependencies": {
 	}
 }

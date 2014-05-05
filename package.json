@@ -1,6 +1,6 @@
 {
-	"name": "around",
-	"description": "Around",
+	"name": "yado",
+	"description": "Yado",
 	"version": "0.0.1",
 	"private": true,
 	"author": {
@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:nkbt/around.git"
+		"url": "git@github.com:nkbt/yado.git"
 	},
 	"dependencies": {
 		"underscore": "1.x",

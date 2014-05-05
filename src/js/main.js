@@ -14,6 +14,14 @@
 			'lib/layout': 'bower/core/layout',
 			'lib/router': 'bower/core/router',
 			'lib/navigation': 'bower/core/navigation',
+			'lib/messenger': 'bower/messenger/messenger',
+			'messenger/html': '../templates/bower/messenger',
+			'lib/storage': 'bower/storage/storage',
+			'vendor/storage-polyfill': 'bower/storage/storage-polyfill',
+
+			'vendor/geo': 'bower/map/geo',
+			'lib/map': 'bower/map/init',
+			'map': 'bower/map/map',
 
 			styles: '../css',
 			views: '../views',
@@ -38,7 +46,8 @@
 		map: {
 			'*': {
 				'css': 'bower/require-css/css',
-				'txt': 'bower/requirejs-text/requirejs-text'
+				'txt': 'bower/requirejs-text/requirejs-text',
+				'vendor/require/async': 'bower/requirejs-plugins/async'
 			}
 		},
 		config: {
