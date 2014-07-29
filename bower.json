@@ -1,7 +1,6 @@
 {
-	"name": "yado",
-	"version": "0.0.1",
-	"description": "yado",
+	"name": "notes",
+	"description": "notes",
 	"author": {
 		"name": "Nik Butenko",
 		"email": "nik@butenko.me"
