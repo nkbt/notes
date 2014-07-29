@@ -1,0 +1,2 @@
+define(["underscore","entity/abstract"],function(t,n){"use strict";var r={Entity:null},i="route",u={controller:function(){},action:function(){},query:function(){}};return r.Entity=u,function(t){return n(i,r.Entity,t)}});
+//# sourceMappingURL=route.js.map

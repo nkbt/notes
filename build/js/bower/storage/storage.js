@@ -1,0 +1,2 @@
+define(["underscore","entity/from-json","vendor/storage-polyfill"],function(n,e){"use strict";function t(e){return u.clear(),n.isFunction(e)?e(null):null}function r(e,t,r){return u.setItem(e,n.isString(t)?t:JSON.stringify(t)),n.isFunction(r)?r(null,t):null}function i(n,t){return e(u.getItem(n),t)}function o(e,t){return u.removeItem(e),n.isFunction(t)?t(null):null}{var u=window.localStorage;window.sessionStorage}return{set:r,get:i,"delete":o,clear:t}});
+//# sourceMappingURL=storage.js.map

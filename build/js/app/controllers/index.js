@@ -1,0 +1,2 @@
+define(["lib/app","lib/layout"],function(n,e){"use strict";function t(){}function i(n,e){return"index"===e.controller()?d[e.action()](e):t()}function r(e,t){n.trigger(t,"map:markerAdd",["test1",-33.866116,151.20541,"Test"])}n.log("Loaded");var d={};return d.index=function(){return require(["txt!views/index/index.html","css!styles/app/index/index","map"],e.contentRenderer(r))},n.on("lib/dispatcher:run",null,i),d});
+//# sourceMappingURL=index.js.map
