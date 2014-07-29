@@ -1,7 +1,7 @@
 {
 	"name": "yado",
 	"description": "Yado",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"private": true,
 	"author": {
 		"name": "Nik Butenko",
@@ -16,7 +16,8 @@
 	"scripts": {
 		"start": "node app.js",
 		"test": "grunt test",
-		"build": "grunt"
+		"build": "grunt",
+		"postinstall": "grunt"
 	},
 	"repository": {
 		"type": "git",
